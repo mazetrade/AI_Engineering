@@ -1,0 +1,25 @@
+# Virtual environment — never commit this
+venv/
+
+# API keys — never commit this
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Sentence transformers cache
+.cache/
+
+# FAISS index if saved to disk
+*.index
+
+# VSCode settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
